@@ -1,0 +1,12 @@
+body { 
+    font-family: 'Nunito', sans-serif; 
+    background-color: #f8fafc;
+    /* Disable selection and elastic scroll for app-like feel */
+    user-select: none;
+    -webkit-user-select: none;
+    overscroll-behavior: none;
+    touch-action: manipulation;
+    overflow: hidden;
+}
+/* Custom scrollbar hidden for cleaner UI */
+::-webkit-scrollbar { display: none; }
